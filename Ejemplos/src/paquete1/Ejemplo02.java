@@ -29,6 +29,7 @@ public class Ejemplo02 {
         double[] arreglo2 = new double[5];
         System.out.println(arreglo2[0]);
         
+        
         // arreglo de tipo String
         String[] arreglo4 = new String[5];
         System.out.println(arreglo4[0]);
@@ -36,6 +37,10 @@ public class Ejemplo02 {
         // arreglo de tipo boleano
         boolean[] arreglo5 = new boolean[5];
         System.out.println(arreglo5[0]);
+        System.out.println(arreglo5[1]);
+        System.out.println(arreglo5[2]);
+        System.out.println(arreglo5[3]);
+        System.out.println(arreglo5[4]);
     }
 
 }
