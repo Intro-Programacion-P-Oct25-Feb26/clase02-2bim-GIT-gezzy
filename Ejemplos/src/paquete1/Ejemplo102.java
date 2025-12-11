@@ -33,7 +33,8 @@ public class Ejemplo102 {
             // Luis o Ana
             nombre = estudiantes[i];
             if (!nombre.equals("Luis")) {
-            
+                // La condicion expresa que mientras el valor del arreglo en 
+                // la posicion i sea igual a Luis, no acumula los valores
                 mensajeFinal = String.format("%sEstudiante:%s - promedio: "
                         + "%.4f\n", 
                         mensajeFinal,
